@@ -1,0 +1,41 @@
+.conversation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 50%;
+  
+
+  }
+
+  .conversation:hover {
+    background-color: rgb(245, 243, 243);
+
+
+  }
+  
+ 
+  
+  .conversationImg {
+    width: 90px;
+    height: 70px;
+    border: 1px solid black;
+    border-radius: 50%;
+    border: none;
+    /* object-fit: cover; */
+    /* margin-right: 20px; */
+  }
+
+
+  
+  .conversationName {
+    font-weight: 500;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .conversationName {
+      display: none;
+    }
+  }

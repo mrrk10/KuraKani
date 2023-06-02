@@ -1,0 +1,14 @@
+.container{
+    width:40%;
+    margin: auto;
+}
+
+.inputFiled{
+    margin: auto;
+    
+}
+.inputFiled input{
+    margin-top:10px ;
+    width: 400px;
+    height: 30px;
+}
